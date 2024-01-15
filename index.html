@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -153,23 +154,23 @@
             </div>
         </section>
 
-        <section id="products">
-            <div class="products-wrapper center">
+        <section itemscope itemtype="http://schema.org/Product" id="products">
+            <div itemprop="brand" itemscope itemtype="http://schema.org/Brand" itemref="_logo7" class="products-wrapper center">
                 <div class="products-title">
-                    <h3>our Vignet products</h3>
+                    <h3>our <span itemprop="name"> Vignet products </span> </h3>
                     <p class="highlight">HIGH QUALITY</p>
                 </div>
             </div>
             <div class="products-list column-two margin-top3 horizontal-big-padding">
                 <div class="products-container">
-                    <img src="./04-ASSETS/06-PRODUCTS/Vignet-British-Technology-uPVC-Windows-and-Doors-Profile-Products-Profiles.jpg" alt="Vignet-British-Technology-uPVC-Windows-and-Doors-Profile-Products-Profiles">
+                    <img itemprop="image" src="./04-ASSETS/06-PRODUCTS/Vignet-British-Technology-uPVC-Windows-and-Doors-Profile-Products-Profiles.jpg" alt="Vignet-British-Technology-uPVC-Windows-and-Doors-Profile-Products-Profiles">
                     <div class="products-description-wrapper">
                         <div class="products-description">
-                            <h5>uPVC PROFILE</h5>
-                            <p>Crafted for durability and aesthetic appeal. Choose excellence for your project with sleek designs and a perfect fit for various architectural styles.</p>
+                            <h5 itemprop="name">uPVC PROFILE</h5>
+                            <p itemprop="description">Crafted for durability and aesthetic appeal. Choose excellence for your project with sleek designs and a perfect fit for various architectural styles.</p>
                         </div>
                         <div class="view-button">
-                            <a href="#uPVCPROFILE">
+                            <a itemprop="url" href="#uPVCPROFILE">
                                 <p class="button-light">VIEW PRODUCTS</p>
                                 <i class="fi fi-rr-arrow-small-up button-light small-icon"></i>
                             </a>
@@ -357,7 +358,7 @@
                 <div class="footer-wrapper column-four">
                     <div class="socials">
                         <div class="company">
-                            <a href="#hero"><h5>VIGNET</h5></a>
+                            <a href="#hero"><h5 id="_logo7" itemprop="logo">VIGNET</h5></a>
                             <p>Direct Manufacturer of uPVC Windows & Doors.</p>
                         </div>
                     </div>
